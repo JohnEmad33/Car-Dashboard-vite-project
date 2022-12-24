@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 1024px;
+}
+
+
+
+@media (max-width: 992px) { 
+  
+  /* #sidebar{
+     display: flex;
+     justify-content: center;
+ }  */
+ 
+ #main{
+     background-color: #f5f5f5;
+     /* width: 100%; */
+ }
+ 
+ #energy{
+     background-color: #A162F7;
+     height: 266px;
+     width: 100%;
+     border:none;
+ }
+
+ #range{
+  background-color: #ffffff;
+  height: 266px;
+  width: 100%;
+  border:none;
+}
+
+#fluid{
+  background-color: #ffffff;
+  height: 266px;
+  width: 100%;
+  border:none;
+}
+
+#tireWear{
+  background-color: #ffffff;
+  height: 266px;
+  width: 100%;
+  border:none;
+}
+
+.graph{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+ }
+
+ /* @media (min-width: 992px){
+  #login{
+      line-height: 25px;
+      position: absolute;
+      top:890px;
+  }
+ } */
+
+@media (max-width: 1200px) {
+  .carName{
+      font-size: 15px;
+      font-weight: 700;
+      color:#242731;
+      margin-left: 10px;
+      margin-right: auto;
+  }
+  .manual{
+      font-size:13px; 
+      margin-left: 2px; 
+      color: #72767C;
+  }
+
+  .fourHundred{
+      font-size:13px;
+      font-weight: 700;
+      position: absolute;
+      right: 45px;
+      color:#242731;
+  }
+
+  .perDay{
+      font-size:13px;
+      position: absolute;
+      right: 25px;
+      color: #72767C;
+  }
+}
+
+@media (max-width: 992px) {
+  .cardHeight{
+      height: auto;
+  }
+
+  .manual{
+      font-size:18px; 
+      margin-left: 2px; 
+      color: #72767C;
+  }
+  .fourHundred{
+      font-size:18px;
+      font-weight: 700;
+      position: absolute;
+      right: 45px;
+      color:#242731;
+  }
+  .perDay{
+      font-size:18px;
+      position: absolute;
+      right: 25px;
+      color: #72767C;
+  }
+}
+
+
+/* #messagesTitle{
+  color: #242731;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+ }
+
+ .messages{
+  background-color: #ffffff;
+  margin:30px 30px 30px 30px;
+  padding: 30px 30px;
+ }
+ .searchMessage{
+  margin:30px 0px;
+ }
+ .imageCol{
+  align-self:center ;
+ }  */

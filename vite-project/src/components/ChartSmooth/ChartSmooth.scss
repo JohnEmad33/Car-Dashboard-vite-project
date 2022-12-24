@@ -1,0 +1,50 @@
+#stats2{
+    height:332px;
+    width:100%;
+    border:none;
+  }
+  .chartCardTitle
+  {
+    font-weight:bold;
+  }
+  .graphButtonContent
+  {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .chartCardText2
+  {
+    font-size: 15px;
+    color: #72767C;
+    font-weight: 700;
+  }
+  .divGrey{
+    background-color: #efefef;
+    height: fit-content;
+    width: fit-content;
+  }
+
+  .chartButtons2{
+    align-content: center;
+    justify-items: auto;
+    padding:auto;
+    border: none;
+    color: #5F6165;
+    height:30px;
+    width:70px;
+  }
+  .chartButtons2:hover{
+    background-color: #FF764C;
+    color: #FFFFFF;
+  }
+  .chartButtons2:active{
+    background-color: #FF764C;
+    color: #FFFFFF;
+  }
+
+  #chartdiv6 {
+    width: 100%;
+    height: 250px;
+  }
